@@ -1,0 +1,49 @@
+Punerea datelor in data_structure:
+       -am luat 2 string uri in care am memorat linia
+       -cu primul string,am taiat cu strtok cuvintele de pe linie,am luat type ul si lungimea cuvintelor si le am pus in data_structure
+       -cu al doilea string,am taiat,din nou,cu strtok cuvintele,am aflat dimensiunea cuvintelor,
+                     am luat  cate o variabila si am pus in ele cuvintele taiate.Dupa am pus continutul
+            variabilelor in data_structure cu memcpy
+Functia ADD_LAST
+   -am calculat intr o functie separata  lungimea actuala a vectorului "arr" pentru a realoca(functia parcurge vectorul si aduna dimensiunile)
+   -am copiat bytii din data_structure in variabila "parcurge", care retine adresa vectorul *arr unde se vor adauga datele
+Functia ADD_LAST
+    --am calculat intr o functie separata  lungimea actuala a vectorului "arr" pentru a realoca
+    -am calculat lungiea inainte de indexul la care vrem sa adaugam date
+    -am calculat diferenta lor pentru a sti ce dimensiune sa iau intr un vector auxiliar
+    -am luat un vector auxiliar in care am pus bytii din arr de dupa indexul la care vrem sa adaugam
+    -am luat o variabila "inceput" care retine adresa vectorului *arr de unde vrem sa adaugam
+    -am pus in "inceput" bytii elementului pe care il adaugam
+    -am pus in "inceput" bytii din vectorul auxiliar
+Functia find
+    -parcurge vectorului pana la index,
+    -afisez(am luat cate o variabila care retine adresa de la elementul pe care vrem sa il afisam.Adresa elementelor am calculat-o astfel:
+                       -la primul elem am pornit de la adresa vectorului si am adaugat marimea "head ului"
+                        -la al doilea elem am pornit de la adresa vectorul si am adaugat marimea head ului si marimea cuvantului de dinainte
+                        -la al treilea elem am pornit de la adresa vectorul si am adaugat marimea head ului si marimea cuvintelor  de dinainte
+                        -la al patrulea  elem am pornit de la adresa vectorul si am adaugat marimea head ului si marimea cuvintelor de dinainte
+Functia delete
+         --am calculat intr o functie separata  lungimea actuala a vectorului "arr" pentru a realoca
+         --am calculat lungiea inainte de indexul la care vrem sa adaugam date
+          -am calculat lungiea de dupa  indexul la care vrem sa adaugam date
+          -am aflat dimensiunea care trebuie stearsa pentru a sti cata memorie trebuie realocata
+          -am luat o variabila "inceput" care retine adresa vectorului *arr inainte de unde vrem sa stergem
+          -am luat o variabila "dupa" care retine adresa vectorului *arr de dupa elementul de stergere
+          am luat un vector auxiliar in care am pus bytii variabilei dupa
+          in inceput am pus bytii vectorul auxiliar
+Functia print
+     parcurge elementele din vector si afiseaza cele 4 elemente mai mici(descrierea la find)
+
+
+Pentru a apela functiile am luat primul string mentionat la inceput si i am luat primul cuvant.
+     
+
+
+            
+
+                            
+
+
+
+
+
